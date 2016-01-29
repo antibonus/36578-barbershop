@@ -1,0 +1,45 @@
+body {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: normal;
+    font-family: "PT Sans", "Arial", serif;
+  
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: normal;
+    font-family: "PT Sans", "Arial", serif;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    font-weight: normal;
+    font-family: "PT Sans", "Arial", serif;
+}
+/* 
+я могу написать это так, да? а то громоздко...:
+body {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: normal;
+    font-family: "PT Sans", "Arial", serif;  
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 36px;    
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 29px;
+}
+   
+*/
