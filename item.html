@@ -10,22 +10,22 @@
           <nav class="main-navigation">
             <ul>
               <li>
-                <a class="main-navigation-home" href="#" title="Главная страница"><img class="logo-barbershop" src="#" alt="Barbershop"></a>
+                <a class="main-navigation-home" href="index.html"><img class="logo-barbershop" src="#" alt="Barbershop"></a>
               </li>  
               <li>
-                <a class="main-navigation-info" href="#" title="Еще немного о нас">Информация</a>
+                <a class="main-navigation-info" href="#">Информация</a>
               </li>
               <li>
-                <a class="main-navigation-news" href="#" title="Наши новости">Новости</a>
+                <a class="main-navigation-news" href="#">Новости</a>
               </li>
               <li>
-                <a class="main-navigation-price" href="#" title="Цены">Прайс-лист</a>
+                <a class="main-navigation-price" href="#">Прайс-лист</a>
               </li>
               <li>
-                <a class="main-navigation-shop" href="#" title="Наши продукты">Магазин</a>
+                <a class="main-navigation-shop" href="#">Магазин</a>
               </li>
               <li>
-                <a class="main-navigation-contacts" href="#" title="Как с нами связаться">Контакты</a>
+                <a class="main-navigation-contacts" href="#">Контакты</a>
               </li>
             </ul>     
           </nav> 
@@ -41,36 +41,37 @@
       <main class="container">
         <div  class="headline">
           <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1>
-          <div class="breadcrumbs">
-            <ul>
+            <ul class="breadcrumbs">
               <li>
-                <a class="breadcrumbs-home" href="#" title="Главная страница">ГЛАВНАЯ</a> 
+                <a class="breadcrumbs-home" href="index.html">ГЛАВНАЯ</a> 
               </li>
               <li>
-                <a class="breadcrumbs-shop" href="#" title="Наши продукты">МАГАЗИН</a> 
+                <a class="breadcrumbs-shop" href="#">МАГАЗИН</a> 
               </li>
               <li>
-                <a class="breadcrumbs-carecosmetics" href="#" title="Средства для ухода">СРЕДСТВА ДЛЯ УХОДА</a>
+                <a class="breadcrumbs-carecosmetics" href="shop.html">СРЕДСТВА ДЛЯ УХОДА</a>
               </li>
               <li>
-                <a class="breadcrumbs-travelset-baxter" href="#" title="Вы тут">НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</a>
+                <a class="breadcrumbs-travelset-baxter" href="item.html">НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</a>
               </li>
             </ul>
-          </div>
         </div>
         
-        <div class="content"><!--у меня в документе shop в блок с этим же классом обернуто все кроме заголовка с breadcrums, не опасно ли оставлять тут такой же класс? просто вроде страницы выглядят похоже, а плодить лишние классы пока не хочется, я плохо в них ориентируюсь на этом этапе-->
-          <div class="content-left"><!--мне нужен этот блок? или я могу оставить section тут без обертки?-->
+        <div class="item-content">
+          <div class="item-content-left"><!--мне нужен этот блок? или я могу оставить section тут без обертки?-->
             <section class="gallery">
-              <!--я не понимаю как сверстать этот блок( Я догадываюсь, что при нажатии на эти маленькие фоточки в большом окне будет появляется фотография...поэтому, наверное, нижние 3 фотки - ссылки, но вот это большое окно?и какая вокруг них обертка? вставляю пока просто картинку, но как сделать надо на самом деле?-->
+              <!--я не понимаю как сверстать этот блок( 
+              Я догадываюсь, что при нажатии на эти маленькие фоточки в большом окне будет появляется фотография...
+              поэтому, наверное, нижние 3 фотки - ссылки, но вот это большое окно?
+              и какая вокруг них обертка? вставляю пока просто картинку, но как сделать надо на самом деле?-->
               <img class="big-productfoto" src="#" alt="Фото товара">
-              <a  href="#"><img class="productfoto1" src="#" alt="Набор для путешествий-фото1"></a><!--что тут вообще пишут на 3 фотки одного и того же товара? наверняка, есть устоявшаяся форма?-->
+              <a  href="#"><img class="productfoto1" src="#" alt="Набор для путешествий-фото1"></a>
               <a  href="#"><img class="productfoto2" src="#" alt="Набор для путешествий-фото2"></a>
               <a  href="#"><img class="productfoto3" src="#" alt="Набор для путешествий-фото3"></a>
             </section>
           </div>
           
-          <div class="content-right">
+          <div class="item-content-right">
             
             <section class="product-features">
               <div class="product-features-up">
@@ -81,13 +82,13 @@
               <p>TRAVEL KIT - НЕОБХОДИМЫЙ АКСЕССУАР ВО ВРЕМЯ ЛЮБОГО ПУТЕШЕСТВИЯ. В АККУРАТНОЙ КОЖАНОЙ СУМКЕ НАХОДИТСЯ ВСЕ, ЧТО НУЖНО ДЛЯ БРИТЬЯ И УХОДА ЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ ИЛИ ОТДЫХА:СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ ДЛЯ БРИТЬЯ, КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ. НАБОР ТАКЖЕ МОЖЕТ СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ.<p>
             </section>
             
-            <section class="price">
+            <div class="price">
               <span>2900 РУБ.</span>
               <a class="btn btn-buy" href="#">КУПИТЬ</a>
-            </section>
+            </div>
             
             <section class="product-consist">
-              <h1>В НАБОР ВХОДЯТ</h1>
+              <h2>В НАБОР ВХОДЯТ</h2>
               <ul>
                 <li>СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
                 <li>УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
@@ -108,7 +109,7 @@
               <p>    
                 Барбершоп «Бородинский»<br>
                 Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-                <a class="footer-contacts-map" href="#" title="Карта">Как нас найти?</a><br>
+                <a class="footer-contacts-map" href="#">Как нас найти?</a><br>
                 Телефон: +7 (812) 666-02-66
               </p>
             </section>
