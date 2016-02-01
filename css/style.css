@@ -1,45 +1,27 @@
 body {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 100%;
+    line-height: 1,20;
     color: #000000;
-    font-weight: normal;
-    font-family: "PT Sans", "Arial", serif;
-  
-}
-
-h1 {
-    font-size: 30px;
-    line-height: 36px;
-    color: #000000;
-    font-weight: normal;
-    font-family: "PT Sans", "Arial", serif;
-}
-
-h2 {
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-    font-weight: normal;
-    font-family: "PT Sans", "Arial", serif;
-}
-/* 
-я могу написать это так, да? а то громоздко...:
-body {
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-    font-weight: normal;
+    font-weight: 700;
     font-family: "PT Sans", "Arial", serif;  
 }
 
 h1 {
-    font-size: 30px;
-    line-height: 36px;    
+    font-size: 30px;  
 }
 
 h2 {
     font-size: 24px;
-    line-height: 29px;
 }
    
+p  {
+    font-size: 14px;
+    line-height: 24px;
+}
+/*
+Я догадываюсь, зачем устанавливать относительную высоту строки, но не понимаю, почему она должна быть 1, ведь тогда строки будут сливаться...Почитав статью по типографике из материалов от 3 вебинара, поставила 1,20... Что совпадает с интерлиньяжем в тех местах, где стоит авто в photoshop
+*/
+
+/*
+А вот как подключить шрифт я так и не понимаю...И не понимаю как найти pt sans narrowbold...И я бы хотела это оставить до следующей лекции, на которой это должно разбираться...ок?
 */
